@@ -1,0 +1,29 @@
+LIST OF COMMANDS TO PUSH DOCUMENT TO GIT ACCOUNT
+
+sudo apt install git
+
+git init
+
+git status
+
+git add .
+
+git commit -m "First Commit"
+
+//*** Please tell me who you are.
+
+git config --global user.name Devansh5998
+
+git config --global user.email devanshchalmani123@gmail.com
+
+git commit -m "First Commit"
+
+git remote add origin "https://github.com/Devansh5998/App1.git"
+
+git push origin master
+
+Username for 'https://github.com': Devansh5998
+
+Password for 'https://Devansh5998@github.com': 
+
+Github-->repository-->master
