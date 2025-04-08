@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marquee with CSS</title>
+    <style>
+        .marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scrollText 10s linear infinite;
+        }
+
+        @keyframes scrollText {
+            0%   { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Scrolling Text Using CSS</h2>
+
+<div class="marquee">
+    <span>This is a simple scrolling text using CSS!</span>
+</div>
+
+</body>
+</html>
+
